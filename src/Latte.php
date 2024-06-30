@@ -13,7 +13,7 @@ class Latte implements ViewInterface
     private Engine $latte;
     private array $options = [
         'use_cache' => false,
-        'view_path' => '',
+        'view_path' => 'app',
         'cache_path' => 'storage/views',
     ];
 
